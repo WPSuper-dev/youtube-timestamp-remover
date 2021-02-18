@@ -43,3 +43,16 @@ document.all.TextFields.Output.value = strOut;
 return;
 }
 </script>
+  
+<body>
+    <h1>Remove timestamps from subtitle of youtube video and other Subtitle</h1>
+    Example picture:<br/>
+    <img src="https://i.imgur.com/SVZEi3h.png" /><br/>
+    Open your srt and txt file with notepad. add to left text field and press "Go Super!"<br/>
+<form name="TextFields">
+<TEXTAREA type="text" cols="67" rows="10" name="Input" value="" ></TEXTAREA>
+<input type="button" value="Go Super!" onClick="TryClear();"></input>
+<TEXTAREA type="text" cols="67" rows="10" name="Output" value="" ></TEXTAREA>
+</form>
+(c) <a href="WWW.wpsuper.in">wpsuper</a><br/><br/><a href="http://www.wpsuper.in">wpsuper</a>
+</body>
